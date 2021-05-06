@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{11BB22CE-77D1-41A8-8FFB-BF2512EA3D3E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{BE1742EA-0C28-4ABF-A6C7-79AB189F4A48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AVS.RegisCache.API", "src\App\AVS.RegisCache.API\AVS.RegisCache.API.csproj", "{75D887C5-FB10-47C4-8F3B-F844F79B8163}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75D887C5-FB10-47C4-8F3B-F844F79B8163}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75D887C5-FB10-47C4-8F3B-F844F79B8163}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75D887C5-FB10-47C4-8F3B-F844F79B8163}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75D887C5-FB10-47C4-8F3B-F844F79B8163}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BE1742EA-0C28-4ABF-A6C7-79AB189F4A48} = {11BB22CE-77D1-41A8-8FFB-BF2512EA3D3E}
+		{75D887C5-FB10-47C4-8F3B-F844F79B8163} = {BE1742EA-0C28-4ABF-A6C7-79AB189F4A48}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B7383E3-6DB1-4995-83AF-C757ED6F79FC}
+	EndGlobalSection
+EndGlobal
